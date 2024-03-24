@@ -1,0 +1,23 @@
+.leaflet-marker-icon {
+  /* Set initial width and height */
+  width: 50px;
+  height: 50px;
+  /* Add transition effect */
+  transition: width 0.3s ease, height 0.3s ease;
+}
+
+.leaflet-marker-icon:hover {
+  /* Increase size on hover */
+  width: 60px !important;
+  height: 60px !important;
+}
+
+.leaflet-tooltip {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid #007bff;
+  border-radius: 50px;
+  padding: 6px 12px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+}
